@@ -1,0 +1,17 @@
+cd src && make
+make[1]: Entering directory `/home/tobias/Documents/ccs/batman-hardes/simulation_omnet/inet/src'
+batmanadv/batadv/ogmv4.cc
+networklayer/manetrouting/olsr/OLSR_state.cc
+networklayer/routing/aodv/AODVRouting.cc
+networklayer/routing/dymo/xDYMO.cc
+networklayer/routing/gpsr/GPSR.cc
+networklayer/routing/rip/RIPRouting.cc
+networklayer/rsvp_te/RSVP.cc
+networklayer/ted/LinkStateRouting.cc
+transport/rtp/RTP.cc
+transport/rtp/RTPReceiverInfo.cc
+transport/rtp/RTCP.cc
+transport/rtp/profiles/avprofile/RTPAVProfilePayload32Sender.cc
+transport/rtp/profiles/avprofile/RTPAVProfilePayload32Receiver.cc
+Creating shared library: ../out/gcc-debug/src/libinet.so
+make[1]: Leaving directory `/home/tobias/Documents/ccs/batman-hardes/simulation_omnet/inet/src'

@@ -1,0 +1,62 @@
+file 59861 1444204636                                           
+version 2
+run General-0-20151007-09:57:13-4480
+attr configname General
+attr datetime 20151007-09:57:13
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network ffpb_network
+attr processid 4480
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 987  ffpb_network.statisticsCollector  ogmByteSizeBuerenSendAvg  ETV
+vector 975  ffpb_network.statisticsCollector  ogmAggregatedBuerenAvg  ETV
+vector 983  ffpb_network.statisticsCollector  ogmByteSizeBuerenAvg  ETV
+vector 990  ffpb_network.statisticsCollector  ogmByteSizeRemainderSendAvg  ETV
+vector 988  ffpb_network.statisticsCollector  ogmByteSizePaderbornSendAvg  ETV
+vector 989  ffpb_network.statisticsCollector  ogmByteSizeBaliSchlangenHoevelhofSendAvg  ETV
+vector 963  ffpb_network.statisticsCollector  ogmReceivedBueren  ETV
+vector 967  ffpb_network.statisticsCollector  ogmSentBueren  ETV
+vector 979  ffpb_network.statisticsCollector  ogmAggregatedBuerenWifi  ETV
+vector 971  ffpb_network.statisticsCollector  ogmAggregatedBueren  ETV
+vector 964  ffpb_network.statisticsCollector  ogmReceivedPaderborn  ETV
+vector 968  ffpb_network.statisticsCollector  ogmSentPaderborn  ETV
+vector 980  ffpb_network.statisticsCollector  ogmAggregatedPaderbornWifi  ETV
+vector 972  ffpb_network.statisticsCollector  ogmAggregatedPaderborn  ETV
+vector 965  ffpb_network.statisticsCollector  ogmReceivedBaliSchlangenHoevelhof  ETV
+vector 969  ffpb_network.statisticsCollector  ogmSentBaliSchlangenHoevelhof  ETV
+vector 981  ffpb_network.statisticsCollector  ogmAggregatedBaliSchlangenHoevelhofWifi  ETV
+vector 973  ffpb_network.statisticsCollector  ogmAggregatedBaliSchlangenHoevelhof  ETV
+vector 966  ffpb_network.statisticsCollector  ogmReceivedRemainder  ETV
+vector 970  ffpb_network.statisticsCollector  ogmSentRemainder  ETV
+vector 982  ffpb_network.statisticsCollector  ogmAggregatedRemainderWifi  ETV
+vector 974  ffpb_network.statisticsCollector  ogmAggregatedRemainder  ETV
+963	2048 160 448769 448769 110 110 9 0 335 675 135345
+964	2208 136 448769 448769 110 110 8 0 0 0 0
+965	2344 51 448769 448769 110 110 3 0 0 0 0
+966	2395 102 448769 448769 110 110 6 0 0 0 0
+967	2497 161 448769 448769 110 110 9 6 74 537 35471
+968	2658 141 448769 448769 110 110 8 6 24 102 1692
+969	2799 52 448769 448769 110 110 3 5 12 23 205
+970	2851 104 448769 448769 110 110 6 6 17 57 689
+971	2955 155 448769 448769 110 110 9 0 17 61 609
+972	3110 136 448769 448769 110 110 8 0 0 0 0
+973	3246 51 448769 448769 110 110 3 0 0 0 0
+974	3297 102 448769 448769 110 110 6 0 0 0 0
+975	3399 19596 202536 441779 50.473411409814 108.17307185293 675 1 4 710 798
+979	22995 153 448769 448769 110 110 9 0 1 2 2
+980	23148 136 448769 448769 110 110 8 0 1 1 1
+981	23284 51 448769 448769 110 110 3 0 1 2 2
+982	23335 102 448769 448769 110 110 6 0 1 3 3
+983	23437 20272 202536 441779 50.473411409814 108.17307185293 675 40 112 27840 1177728
+987	43709 11690 202200 441736 50.41 108.171 555 40 112 22992 980736
+988	55399 2524 204564 448013 50.947 109.811 120 40 40 4800 192000
+989	57923 486 208857 443811 51.979 108.698 23 40 40 920 36800
+990	58409 1452 203183 443125 50.602 108.538 69 40 40 2760 110400

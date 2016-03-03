@@ -1,0 +1,10 @@
+<scenario>
+<at t="1">
+    	<create-module type="inet.nodes.inet.WirelessHost" parent="." submodule="tic"/><!--Node:10:fe:ed:7d:a2:44 -->
+</at>
+<at t="1.1">
+    	<create-module type="inet.nodes.inet.WirelessHost" parent="." submodule="toc"/><!--Node:10:fe:ed:7d:a2:44 -->
+    </at>
+
+</scenario>
+

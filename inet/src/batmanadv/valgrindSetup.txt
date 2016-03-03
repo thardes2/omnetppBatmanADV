@@ -1,0 +1,4 @@
+valgrind --tool=callgrind -- opp_run -l ../inet -n ../../examples:.. -u Cmdenv
+
+valgrind --leak-check=full --tool=memcheck -- opp_run -l ../inet -n ../../examples:.. -u Cmdenv
+

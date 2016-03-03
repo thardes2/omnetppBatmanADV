@@ -1,0 +1,128 @@
+file 49729 1437214833                                           
+version 2
+run General-0-20150718-12:20:10-5112
+attr configname General
+attr datetime 20150718-12:20:10
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Tictoc1
+attr processid 5112
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 8  Tictoc1.tic[0].wlan[0].mgmt  dataQueueLen:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "data queue length, vector"
+vector 19  Tictoc1.tic[0].wlan[0].mac  RadioState  ETV
+attr enum  "IDLE=0, OFF=4, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 18  Tictoc1.tic[0].wlan[0].mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITCTS=6, WAITMULTICAST=5, WAITSIFS=7"
+attr enumname  Ieee80211Mac
+vector 21  Tictoc1.tic[0].wlan[0].mac  "throughput AC0"  ETV
+vector 14  Tictoc1.tic[0].wlan[0].radio  bitrate:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, vector"
+attr unit  bps
+vector 16  Tictoc1.tic[0].wlan[0].radio  radioState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "radio state (enum), vector"
+vector 15  Tictoc1.tic[0].wlan[0].radio  channelNo:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "channel no, vector"
+vector 32  Tictoc1.toc[0].wlan[0].mgmt  dataQueueLen:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "data queue length, vector"
+vector 43  Tictoc1.toc[0].wlan[0].mac  RadioState  ETV
+attr enum  "IDLE=0, OFF=4, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 42  Tictoc1.toc[0].wlan[0].mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITCTS=6, WAITMULTICAST=5, WAITSIFS=7"
+attr enumname  Ieee80211Mac
+vector 45  Tictoc1.toc[0].wlan[0].mac  "throughput AC0"  ETV
+vector 38  Tictoc1.toc[0].wlan[0].radio  bitrate:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, vector"
+attr unit  bps
+vector 40  Tictoc1.toc[0].wlan[0].radio  radioState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "radio state (enum), vector"
+vector 39  Tictoc1.toc[0].wlan[0].radio  channelNo:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "channel no, vector"
+vector 5  Tictoc1.tic[0].wlan[0].agent  sentRequest:vector  ETV
+attr title  "sent requests, vector"
+vector 12  Tictoc1.tic[0].wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 11  Tictoc1.tic[0].wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 47  Tictoc1.toc[0].wlan[0].radio  snirVector  ETV
+vector 37  Tictoc1.toc[0].wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 34  Tictoc1.toc[0].wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 29  Tictoc1.toc[0].wlan[0].agent  sentRequest:vector  ETV
+attr title  "sent requests, vector"
+vector 36  Tictoc1.toc[0].wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 35  Tictoc1.toc[0].wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 23  Tictoc1.tic[0].wlan[0].radio  snirVector  ETV
+vector 13  Tictoc1.tic[0].wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 10  Tictoc1.tic[0].wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 31  Tictoc1.toc[0].wlan[0].agent  dropConfirm:vector  ETV
+attr title  "dropped confirms, vector"
+vector 7  Tictoc1.tic[0].wlan[0].agent  dropConfirm:vector  ETV
+attr title  "dropped confirms, vector"
+5	4430 550 7 838 1.253279723227 10.453279723227 24 1 1 24 24
+7	4980 529 46 838 1.653279723227 10.453279723227 23 1 1 23 23
+8	5509 8 1 1 1 1 1 0 0 0 0
+10	5517 599 35 850 1.454715563632 10.504715563632 24 40 40 960 38400
+11	6116 600 13 856 1.353307723227 10.553307723227 24 40 40 960 38400
+12	6716 599 12 855 1.353279723227 10.553279723227 24 40 40 960 38400
+13	7315 599 35 850 1.454715563632 10.504715563632 24 40 40 960 38400
+14	7914 16 1 1 1 1 1 54000000 54000000 54000000 2.916e+15
+15	7930 9 1 1 1 1 1 0 0 0 0
+16	7939 2311 1 860 1 10.553819723227 97 0 2 72 120
+18	10250 11430 1 860 1 10.553819723227 478 0 5 856 3242
+19	21680 4622 1 860 1 10.553819723227 194 0 2 144 240
+21	26302 665 1 846 1 10.504203563632 26 0 3170.7077209494 20770.707720949 24133387.451688
+23	26967 37 34 34 1.454715563632 1.454715563632 1 60.863141755098 60.863141755098 60.863141755098 3704.3220243012
+29	27004 575 23 833 1.354175521177 10.404175521177 24 1 1 24 24
+31	27579 552 41 833 1.604175521177 10.404175521177 23 1 1 23 23
+32	28131 11 4 4 1.1 1.1 1 0 0 0 0
+34	28142 600 19 862 1.353819765682 10.553819765682 24 40 40 960 38400
+35	28742 599 29 844 1.454203521177 10.504203521177 24 40 40 960 38400
+36	29341 599 28 843 1.454175521177 10.504175521177 24 40 40 960 38400
+37	29940 600 19 862 1.353819765682 10.553819765682 24 40 40 960 38400
+38	30540 18 4 4 1.1 1.1 1 54000000 54000000 54000000 2.916e+15
+39	30558 11 4 4 1.1 1.1 1 0 0 0 0
+40	30569 2313 4 861 1.1 10.553819765682 97 0 2 72 120
+42	32882 11528 4 862 1.1 10.553819765682 482 0 5 864 3264
+43	44410 4626 4 861 1.1 10.553819765682 194 0 2 144 240
+45	49036 656 4 843 1.1 10.504175521177 26 0 1280 18880 15718400
+47	49692 37 18 18 1.353819765682 1.353819765682 1 60.863141755098 60.863141755098 60.863141755098 3704.3220243012

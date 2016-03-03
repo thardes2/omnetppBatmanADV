@@ -1,0 +1,5 @@
+<scenario>
+    <at t="1.0">
+        <tell module="lifecycleController" target="host" operation="NodeStartOperation"/>
+    </at>
+</scenario>

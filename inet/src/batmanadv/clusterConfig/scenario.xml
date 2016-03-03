@@ -1,0 +1,15 @@
+<scenario>
+<at t="55">
+        <create-module type="inet.nodes.inet.WirelessHost" parent="." submodule="sourceNode0"/>
+</at>
+<at t="55">
+        <create-module type="inet.nodes.inet.WirelessHost" parent="." submodule="sourceNode1"/>
+</at>
+<at t="55">
+        <create-module type="inet.nodes.inet.WirelessHost" parent="." submodule="sourceNode2"/>
+</at>
+<at t="55">
+        <create-module type="inet.nodes.inet.WirelessHost" parent="." submodule="sourceNode3"/>
+</at>
+</scenario>
+

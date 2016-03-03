@@ -1,0 +1,357 @@
+[General]
+network = ffpb_network
+tkenv-plugin-path = ../../../etc/plugins
+# seed-0-mt = 5
+sim-time-limit = 110s
+print-undisposed=false
+# num-rngs = 2
+warmup-period = 50s
+debug-on-errors = true
+#cmdenv-express-mode = true
+record-eventlog=false
+**.mobility.initFromDisplayString = false
+*.ap*.mobility.initFromDisplayString = false
+*.gw*.mobility.initFromDisplayString = false
+**.mobility.typename = "LinearMobility"
+**.mobilityType = "LinearMobility"
+**.constraintAreaMinX=0m
+**.constraintAreaMinY=0m
+**.constraintAreaMinZ=0m
+**.constraintAreaMaxX = 10014m
+**.constraintAreaMaxY = 10014m
+**.constraintAreaMaxZ=0m
+
+**.cluster = false
+*.ap*.nodeMaxStarttime = 3
+*.gw*.nodeMaxStarttime = 3
+*.ap*.**.vector-recording = false
+*.gw*.**.vector-recording = false
+*.newNode*.**.vector-recording = false
+*.sourceNode[*].**.vector-recording = false
+*.statisticsCollector.vector-recording = true
+
+
+*.gw0.mac = "c0:ff:ee:ba:be:01"
+*.gw0.numClients = 1
+*.gw0.nodenr = "gw_0"
+*.gw0.GWClass_download_speed = 40960kbps
+*.gw0.GWClass_upload_speed = 40960kbps
+*.gw0.**.GWClass_download_speed = 40960kbps
+*.gw0.**.GWClass_upload_speed = 40960kbps
+*.gw0.**.mac = "c0:ff:ee:ba:be:01"
+*.gw0.eth[*].mac.address = "c0:ff:ee:ba:be:01"
+*.gw0.**.numClients = 1
+*.gw0.meshId= -1
+*.gw0.**.nodenr = "gw_0"
+*.gw0.wifiOnly = false
+*.gw0.**.wifiOnly = false
+
+*.gw1.mac = "c0:ff:ee:ba:be:02"
+*.gw1.numClients = 1
+*.gw1.nodenr = "gw_1"
+*.gw1.GWClass_download_speed = 40960kbps
+*.gw1.GWClass_upload_speed = 40960kbps
+*.gw1.**.GWClass_download_speed = 40960kbps
+*.gw1.**.GWClass_upload_speed = 40960kbps
+*.gw1.**.mac = "c0:ff:ee:ba:be:02"
+*.gw1.eth[*].mac.address = "c0:ff:ee:ba:be:02"
+*.gw1.**.numClients = 1
+*.gw1.meshId= -1
+*.gw1.**.nodenr = "gw_1"
+*.gw1.wifiOnly = false
+*.gw1.**.wifiOnly = false
+
+*.gw2.mac = "c0:ff:ee:ba:be:48"
+*.gw2.numClients = 1
+*.gw2.nodenr = "gw_2"
+*.gw2.GWClass_download_speed = 40960kbps
+*.gw2.GWClass_upload_speed = 40960kbps
+*.gw2.**.GWClass_download_speed = 40960kbps
+*.gw2.**.GWClass_upload_speed = 40960kbps
+*.gw2.**.mac = "c0:ff:ee:ba:be:48"
+*.gw2.eth[*].mac.address = "c0:ff:ee:ba:be:48"
+*.gw2.**.numClients = 1
+*.gw2.meshId= -1
+*.gw2.**.nodenr = "gw_2"
+*.gw2.wifiOnly = false
+*.gw2.**.wifiOnly = false
+
+*.gw3.mac = "c0:ff:ee:ba:be:05"
+*.gw3.numClients = 1
+*.gw3.nodenr = "gw_3"
+*.gw3.GWClass_download_speed = 40960kbps
+*.gw3.GWClass_upload_speed = 40960kbps
+*.gw3.**.GWClass_download_speed = 40960kbps
+*.gw3.**.GWClass_upload_speed = 40960kbps
+*.gw3.**.mac = "c0:ff:ee:ba:be:05"
+*.gw3.eth[*].mac.address = "c0:ff:ee:ba:be:05"
+*.gw3.**.numClients = 1
+*.gw3.meshId= -1
+*.gw3.**.nodenr = "gw_3"
+*.gw3.wifiOnly = false
+*.gw3.**.wifiOnly = false
+
+*.gw4.mac = "c0:ff:ee:ba:be:04"
+*.gw4.numClients = 1
+*.gw4.nodenr = "gw_4"
+*.gw4.GWClass_download_speed = 40960kbps
+*.gw4.GWClass_upload_speed = 40960kbps
+*.gw4.**.GWClass_download_speed = 40960kbps
+*.gw4.**.GWClass_upload_speed = 40960kbps
+*.gw4.**.mac = "c0:ff:ee:ba:be:04"
+*.gw4.eth[*].mac.address = "c0:ff:ee:ba:be:04"
+*.gw4.**.numClients = 1
+*.gw4.meshId= -1
+*.gw4.**.nodenr = "gw_4"
+*.gw4.wifiOnly = false
+*.gw4.**.wifiOnly = false
+
+*.gw5.mac = "c0:ff:ee:ba:be:a7"
+*.gw5.numClients = 1
+*.gw5.nodenr = "gw_5"
+*.gw5.GWClass_download_speed = 40960kbps
+*.gw5.GWClass_upload_speed = 40960kbps
+*.gw5.**.GWClass_download_speed = 40960kbps
+*.gw5.**.GWClass_upload_speed = 40960kbps
+*.gw5.**.mac = "c0:ff:ee:ba:be:a7"
+*.gw5.eth[*].mac.address = "c0:ff:ee:ba:be:a7"
+*.gw5.**.numClients = 1
+*.gw5.meshId= -1
+*.gw5.**.nodenr = "gw_5"
+*.gw5.wifiOnly = false
+*.gw5.**.wifiOnly = false
+
+*.gw6.mac = "c0:ff:ee:ba:be:63"
+*.gw6.numClients = 1
+*.gw6.nodenr = "gw_6"
+*.gw6.GWClass_download_speed = 40960kbps
+*.gw6.GWClass_upload_speed = 40960kbps
+*.gw6.**.GWClass_download_speed = 40960kbps
+*.gw6.**.GWClass_upload_speed = 40960kbps
+*.gw6.**.mac = "c0:ff:ee:ba:be:63"
+*.gw6.eth[*].mac.address = "c0:ff:ee:ba:be:63"
+*.gw6.**.numClients = 1
+*.gw6.meshId= -1
+*.gw6.**.nodenr = "gw_6"
+*.gw6.wifiOnly = false
+*.gw6.**.wifiOnly = false
+
+*.gw7.mac = "c0:ff:ee:ba:be:06"
+*.gw7.numClients = 1
+*.gw7.nodenr = "gw_7"
+*.gw7.GWClass_download_speed = 40960kbps
+*.gw7.GWClass_upload_speed = 40960kbps
+*.gw7.**.GWClass_download_speed = 40960kbps
+*.gw7.**.GWClass_upload_speed = 40960kbps
+*.gw7.**.mac = "c0:ff:ee:ba:be:06"
+*.gw7.eth[*].mac.address = "c0:ff:ee:ba:be:06"
+*.gw7.**.numClients = 1
+*.gw7.meshId= -1
+*.gw7.**.nodenr = "gw_7"
+*.gw7.wifiOnly = false
+*.gw7.**.wifiOnly = false
+
+*.ap0.nodenr = "0"
+*.ap0.**.nodenr = "0"
+*.ap0.mac = "c0:4a:00:42:2e:e4"
+*.ap0.**.mac = "c0:4a:00:42:2e:e4"
+*.ap0.wlan0.mac.address = "c0:4a:00:42:2e:e4"
+*.ap0.numClients = 1
+*.ap0.**.numClients = 1
+*.ap0.eth[*].mac.address = "c0:4a:00:42:2e:e4"
+*.ap0.meshId= -1
+*.ap0.wifiOnly = false
+*.ap0.**.wifiOnly = false
+*.ap0.mobility.initialX = 2522m
+*.ap0.mobility.initialY = 6970m
+
+
+*.ap0_0.nodenr = "0_0"
+*.ap0_0.**.nodenr = "0_0"
+*.ap0_0.mac = "10:fe:ed:57:f6:a6"
+*.ap0_0.**.mac = "10:fe:ed:57:f6:a6"
+*.ap0_0.wlan0.mac.address = "10:fe:ed:57:f6:a6"
+*.ap0_0.numClients = 1
+*.ap0_0.**.numClients = 1
+*.ap0_0.eth[*].mac.address = "10:fe:ed:57:f6:a6"
+*.ap0_0.meshId= -1
+*.ap0_0.wifiOnly = false
+*.ap0_0.**.wifiOnly = false
+*.ap0_0.mobility.initialX = 2527m
+*.ap0_0.mobility.initialY = 6975m
+
+
+*.ap1.nodenr = "-2"
+*.ap1.**.nodenr = "-2"
+*.ap1.mac = "10:fe:ed:7d:a2:44"
+*.ap1.**.mac = "10:fe:ed:7d:a2:44"
+*.ap1.wlan0.mac.address = "10:fe:ed:7d:a2:44"
+*.ap1.numClients = 1
+*.ap1.**.numClients = 1
+*.ap1.eth[*].mac.address = "10:fe:ed:7d:a2:44"
+*.ap1.meshId= -1
+*.ap1.wifiOnly = false
+*.ap1.**.wifiOnly = false
+*.ap1.mobility.initialX = 6986m
+*.ap1.mobility.initialY = 7144m
+
+
+*.ap1_1.nodenr = "-3"
+*.ap1_1.**.nodenr = "-3"
+*.ap1_1.mac = "c0:4a:00:a0:43:ec"
+*.ap1_1.**.mac = "c0:4a:00:a0:43:ec"
+*.ap1_1.wlan0.mac.address = "c0:4a:00:a0:43:ec"
+*.ap1_1.numClients = 1
+*.ap1_1.**.numClients = 1
+*.ap1_1.eth[*].mac.address = "c0:4a:00:a0:43:ec"
+*.ap1_1.meshId= -1
+*.ap1_1.wifiOnly = true
+*.ap1_1.**.wifiOnly = true
+*.ap1_1.mobility.initialX = 6991m
+*.ap1_1.mobility.initialY = 7149m
+
+
+*.ap2.nodenr = "2"
+*.ap2.**.nodenr = "2"
+*.ap2.mac = "f8:1a:67:f9:94:a4"
+*.ap2.**.mac = "f8:1a:67:f9:94:a4"
+*.ap2.wlan0.mac.address = "f8:1a:67:f9:94:a4"
+*.ap2.numClients = 1
+*.ap2.**.numClients = 1
+*.ap2.eth[*].mac.address = "f8:1a:67:f9:94:a4"
+*.ap2.meshId= -1
+*.ap2.wifiOnly = false
+*.ap2.**.wifiOnly = false
+*.ap2.mobility.initialX = 9611m
+*.ap2.mobility.initialY = 5983m
+
+
+*.ap3.nodenr = "3"
+*.ap3.**.nodenr = "3"
+*.ap3.mac = "c4:6e:1f:b6:53:40"
+*.ap3.**.mac = "c4:6e:1f:b6:53:40"
+*.ap3.wlan0.mac.address = "c4:6e:1f:b6:53:40"
+*.ap3.numClients = 1
+*.ap3.**.numClients = 1
+*.ap3.eth[*].mac.address = "c4:6e:1f:b6:53:40"
+*.ap3.meshId= -1
+*.ap3.wifiOnly = false
+*.ap3.**.wifiOnly = false
+*.ap3.mobility.initialX = 1449m
+*.ap3.mobility.initialY = 7546m
+
+
+*.ap4.nodenr = "4"
+*.ap4.**.nodenr = "4"
+*.ap4.mac = "c4:6e:1f:a2:66:3c"
+*.ap4.**.mac = "c4:6e:1f:a2:66:3c"
+*.ap4.wlan0.mac.address = "c4:6e:1f:a2:66:3c"
+*.ap4.numClients = 1
+*.ap4.**.numClients = 1
+*.ap4.eth[*].mac.address = "c4:6e:1f:a2:66:3c"
+*.ap4.meshId= -1
+*.ap4.wifiOnly = false
+*.ap4.**.wifiOnly = false
+*.ap4.mobility.initialX = 6840m
+*.ap4.mobility.initialY = 4240m
+
+
+*.newNode.hasStatus = true
+*.newNode.nodenr = "-1"
+*.newNode.**.nodenr = "-1"
+*.newNode.mac = "12:34:56:78:9A:BA"
+*.newNode.**.mac = "12:34:56:78:9A:BA"
+*.newNode.wlan0.mac.address = "12:34:56:78:9A:BA"
+*.newNode.numClients = 1
+*.newNode.**.numClients = 1
+*.newNode.eth[*].mac.address = "12:34:56:78:9A:BA"
+*.newNode.meshId= -1
+*.newNode.wifiOnly = false
+*.newNode.mobility.initialX = 1419m
+*.newNode.mobility.initialY = 6207m
+
+
+**.sizeBueren = 0
+**.sizePaderborn= 0
+**.sizeBaliSchlangenHoevelhof = 0
+**.sizeRemainder= 0
+
+
+*.newNode*.wlan0.radio.pathLossAlpha = 3
+*.newNode*.wlan1.radio.pathLossAlpha = 3
+*.newNode*.wlan0.radio.channelNumber = 1
+*.newNode*.wlan1.mgmt.beaconInterval = 100ms
+*.newNode*.wlan1.mgmt.ssid = "paderborn.freifunk.net"
+*.newNode*.wlan1.mgmt.numAuthSteps = 4
+*.newNode*.wlan1.radio.channelNumber = 0 # Client wlan*.ap*.wlan1.vector-recording = false
+*.newNode*.wlan0.mgmt.vector-recording = false
+*.newNode*.wlan0.mac.vector-recording = false
+*.newNode*.wlan0.radio.vector-recording = false
+*.newNode*.wlan1.mgmt.vector-recording = false
+*.newNode*.wlan1.mac.vector-recording = false
+*.newNode*.wlan1.radio.vector-recording = false
+**.newNode*.**.transmitterPower = 2.2 mW
+
+**.hopPenalty = 30
+*.*.ogm_ttl = 5
+# DHCP Server stuff
+#10.132.0.0
+*.gw*.udpApp[0].typename = "DHCPServer"
+*.gw*.udpApp[0].subnetMask = "255.255.0.0"        # netmask to assign
+*.gw*.udpApp[0].ipAddressStart = "10.132.0.1"    # ip to start to lease
+*.gw*.udpApp[0].maxNumClients = 10000     # number of ip to lease
+*.gw*.udpApp[0].gateway = "10.132.0.1"     # gateway to assign
+*.gw*.udpApp[0].dns = "8.8.8.8"         # dns to assign
+*.gw*.udpApp[0].leaseTime = 6000s     # lease time in seconds
+
+# DHCP client in the wireless hosts
+*.sourceNode[*].numUdpApps = 1
+**.sourceNode[*].udpApp[0].typename = "DHCPClient"
+**.sourceNode[*].udpApp[0].startTime = uniform(0s, 1s)
+
+**.networkLayer.configurator.networkConfiguratorModule = ""
+
+
+
+# configure ChannelControl
+*.channelControl.carrierFrequency = 2.4GHz
+*.channelControl.sat = -110dBm
+*.channelControl.alpha=3
+*.channelControl.numChannels = 5
+*.channelControl.pMax = 5.5mW
+**.ap*.**.transmitterPower = 2.2 mW
+
+**.client[*].**.transmitterPower = 2.0 mW
+**.sourceNode[*].**.transmitterPower = 2.0 mW
+**.sourceNode[*].wlan[*].radio.pathLossAlpha = 3
+**.client*.**.transmitterPower = 2.0 mW
+# wlan interface - radio channel assignemnt
+*.ap*.wlan0.mgmtType = "Ieee80211MgmtAdhoc" #MESH Interfaces
+*.ap*.wlan1.mgmtType = "Ieee80211MgmtAP" #Client interface --> Ieee80211MgmtAP or Ieee80211MgmtAPSimplified
+
+
+*.ap*.wlan0.radio.pathLossAlpha = 3
+*.ap*.wlan1.radio.pathLossAlpha = 3
+*.clientnr=0
+*.ap*.wlan0.radio.channelNumber = 0
+*.ap*.wlan1.mgmt.beaconInterval = 100ms
+*.ap*.wlan1.mgmt.ssid = "paderborn.freifunk.net"
+*.ap*.wlan1.mgmt.numAuthSteps = 4
+*.ap*.wlan1.radio.channelNumber = 0 # Client wlan*.ap*.wlan1.vector-recording = false
+*.ap*.wlan0.mgmt.vector-recording = false
+*.ap*.wlan0.mac.vector-recording = false
+*.ap*.wlan0.radio.vector-recording = false
+*.ap*.wlan1.mgmt.vector-recording = false
+*.ap*.wlan1.mac.vector-recording = false
+*.ap*.wlan1.radio.vector-recording = false
+
+*.client*.wlan[*].radio.channelNumber = 0
+*.client*.wlan[*].agent.activeScan = true
+
+*.client*.wlan[*].agent.probeDelay = 0.1s
+*.client*.wlan[*].agent.minChannelTime = 0.15s
+*.client*.wlan[*].agent.maxChannelTime = 0.3s
+*.client*.wlan[*].agent.associationTimeout = 5s
+*.client*.wlan[*].vector-recording = false
+
+**.wlan0.mgmt.frameCapacity = 1000

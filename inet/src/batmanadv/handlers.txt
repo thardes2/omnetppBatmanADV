@@ -1,0 +1,14 @@
+/* broadcast packet */
+batadv_rx_handler[BATADV_BCAST] = batadv_recv_bcast_packet;
+
+/* unicast packets ... */
+/* unicast with 4 addresses packet */
+batadv_rx_handler[BATADV_UNICAST_4ADDR] = batadv_recv_unicast_packet;
+/* unicast packet */
+batadv_rx_handler[BATADV_UNICAST] = batadv_recv_unicast_packet;
+/* unicast tvlv packet */
+batadv_rx_handler[BATADV_UNICAST_TVLV] = batadv_recv_unicast_tvlv;
+/* batman icmp packet */
+batadv_rx_handler[BATADV_ICMP] = batadv_recv_icmp_packet;
+/* Fragmented packets */
+batadv_rx_handler[BATADV_UNICAST_FRAG] = batadv_recv_frag_packet;

@@ -1,0 +1,7 @@
+tobias.hardes@ccs-lab6:/scratch/hardes/src/batmanadv$
+
+~/git/runmaker-sommer/generateRunsFile.pl > runs.txt
+
+python ~/git/runmaker-sommer/runmaker4.py -j 4 -n 30 runs.txt
+
+

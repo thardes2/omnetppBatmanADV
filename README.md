@@ -7,5 +7,5 @@ Here, we make all simulation models (and their parameterization to resemble the 
 If you are using this model (or components from it) in your publications we would appreciate a citation: 
 <ul>
 <li><a href="http://dx.doi.org/10.1109/NetSys.2017.7903954"><img src="/bib/icons/IEEE-logo.gif" title="IEEE" alt=""></a> Tobias Hardes, <a class="bibauthorlink" href="http://www.ccs-labs.org/~dressler/">Falko Dressler</a> and <a class="bibauthorlink" href="http://www.ccs-labs.org/~sommer/">Christoph Sommer</a>, "<strong>Simulating a City-Scale Community Network: From Models to First Improvements for Freifunk</strong>," Proceedings of International Conference on Networked Systems (NetSys 2017), Göttingen, Germany, March 2017.
- <small>[<a href="http://dx.doi.org/10.1109/NetSys.2017.7903954">DOI</a>, <a href="/bib/hardes2017simulating/hardes2017simulating.bib">BibTeX</a>, <a href="/bib/hardes2017simulating/">PDF and Details...</a>]</small></li>
+ <small>[<a href="http://dx.doi.org/10.1109/NetSys.2017.7903954">DOI</a>, <a href="www.ccs-labs.org/bib/hardes2017simulating/hardes2017simulating.bib">BibTeX</a>, <a href="http://ieeexplore.ieee.org/document/7903954/?reload=true">PDF and Details...</a>]</small></li>
  </ul>
